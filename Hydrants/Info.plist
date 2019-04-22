@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Take Hydrant Photo</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Hydrant Locations</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Hydrant Locations</string>
 </dict>
 </plist>

@@ -14,6 +14,11 @@
 		31585F17226D6BB600BC8069 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31585F15226D6BB600BC8069 /* LaunchScreen.storyboard */; };
 		31585F22226D6BB700BC8069 /* HydrantsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585F21226D6BB700BC8069 /* HydrantsTests.swift */; };
 		31585F2D226D6BB700BC8069 /* HydrantsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585F2C226D6BB700BC8069 /* HydrantsUITests.swift */; };
+		31585F3C226D6BD800BC8069 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31585F3B226D6BD800BC8069 /* MapKit.framework */; };
+		31585F3E226D6D1900BC8069 /* HydrantUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585F3D226D6D1900BC8069 /* HydrantUpdate.swift */; };
+		31585F40226D6D2B00BC8069 /* HydrantStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585F3F226D6D2B00BC8069 /* HydrantStore.swift */; };
+		31585F42226D6D3900BC8069 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585F41226D6D3900BC8069 /* ImageStore.swift */; };
+		31585F44226D7D4900BC8069 /* HydrantAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31585F43226D7D4900BC8069 /* HydrantAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		31585F28226D6BB700BC8069 /* HydrantsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HydrantsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31585F2C226D6BB700BC8069 /* HydrantsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantsUITests.swift; sourceTree = "<group>"; };
 		31585F2E226D6BB700BC8069 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31585F3B226D6BD800BC8069 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		31585F3D226D6D1900BC8069 /* HydrantUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantUpdate.swift; sourceTree = "<group>"; };
+		31585F3F226D6D2B00BC8069 /* HydrantStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantStore.swift; sourceTree = "<group>"; };
+		31585F41226D6D3900BC8069 /* ImageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		31585F43226D7D4900BC8069 /* HydrantAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HydrantAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31585F3C226D6BD800BC8069 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 				31585F20226D6BB700BC8069 /* HydrantsTests */,
 				31585F2B226D6BB700BC8069 /* HydrantsUITests */,
 				31585F0A226D6BB600BC8069 /* Products */,
+				31585F3A226D6BD800BC8069 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +115,10 @@
 				31585F13226D6BB600BC8069 /* Assets.xcassets */,
 				31585F15226D6BB600BC8069 /* LaunchScreen.storyboard */,
 				31585F18226D6BB600BC8069 /* Info.plist */,
+				31585F3D226D6D1900BC8069 /* HydrantUpdate.swift */,
+				31585F3F226D6D2B00BC8069 /* HydrantStore.swift */,
+				31585F41226D6D3900BC8069 /* ImageStore.swift */,
+				31585F43226D7D4900BC8069 /* HydrantAnnotation.swift */,
 			);
 			path = Hydrants;
 			sourceTree = "<group>";
@@ -123,6 +139,14 @@
 				31585F2E226D6BB700BC8069 /* Info.plist */,
 			);
 			path = HydrantsUITests;
+			sourceTree = "<group>";
+		};
+		31585F3A226D6BD800BC8069 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31585F3B226D6BD800BC8069 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31585F40226D6D2B00BC8069 /* HydrantStore.swift in Sources */,
+				31585F3E226D6D1900BC8069 /* HydrantUpdate.swift in Sources */,
 				31585F0F226D6BB600BC8069 /* ViewController.swift in Sources */,
+				31585F42226D6D3900BC8069 /* ImageStore.swift in Sources */,
 				31585F0D226D6BB600BC8069 /* AppDelegate.swift in Sources */,
+				31585F44226D7D4900BC8069 /* HydrantAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
